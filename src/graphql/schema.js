@@ -10,6 +10,8 @@ import {
   GraphQLSchema,
 } from 'graphql';
 
+import db from '../db';
+
 // ----------------------
 
 // GraphQL can handle Promises from its `resolve()` calls, so we'll create a
